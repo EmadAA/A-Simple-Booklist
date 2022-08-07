@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Lists </title> 
+    <link rel="stylesheet" href="style.css">
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+      crossorigin="anonymous"
+    />
+</head>
+<body>
+    <header>
+        <h1> <i class="fas fa-book-open text-warning listColorIcon"></i> &nbsp; &nbsp; Emad Adil's <span class="listColor">BookList</span></h1>
+    </header>
+    <main>
+       <section class="input-section">
+        <div>
+            <label for="title">Title &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:</label>
+            <input type="text" name="title" id="title" class="input-Field">
+        </div> <br>
+        <div>
+            <label for="author">Author&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :</label>
+            <input type="text" name="author" id="author" class="input-Field">
+        </div> <br>
+        <div>
+            <label for="Year">Year&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:</label>
+            <input type="text" name="Year" id="Year" class="input-Field">
+        </div> <br>
+        <div>
+            <label for="publication">Publication :</label>
+            <input type="text" name="publication" id="publication" class="input-Field">
+        </div> <br>
+        <div>
+            <button id="add-btn">ADD</button>
+        </div>
+       </section>  <br>
+       <hr>
+    </main>
+    <section class="table-section">
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Author</th>
+                    <th>Year</th>
+                    <th>Publication</th>
+                </tr>
+            </thead> 
+            <tbody id="tableBody">
+
+            </tbody>
+        </table>
+
+    </section>
+    <br><br><br>
+<footer>
+    <marquee behavior="" direction=""><h1>Thanks and  stay with us</h1></marquee>
+</footer>    
+<script src="script.js"></script>
+</body>
+</html>

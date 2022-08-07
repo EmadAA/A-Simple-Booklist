@@ -1,0 +1,39 @@
+header{
+    text-align: center
+}
+.listColor, .listColorIcon{
+    color: green;
+}
+.input-section{
+    text-align: center;
+
+}
+.input-Field{
+    height: 40px;
+    width: 80%;
+    
+} 
+hr{
+    width: 90%;
+    text-align: center;
+}
+.table-section{
+    text-align: center;
+}
+table{
+    border: 1px solid black;
+    width: 90%;
+    margin-top: 3rem;
+    margin-left: 70px;
+}
+th,tr{
+    border: 1px solid;
+}
+#add-btn{
+    height: 40px;
+    width: 80%;
+    margin-left: 85px;
+    background-color: #008000;
+    cursor: pointer; 
+    border: none;
+}
